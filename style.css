@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+body {
+    background-color: coral;
+}
+#headDiv {
+    text-align: center;
+}
+.IPLHeading {
+    background-color: #295e6a;
+    color: #dfeff0;
+    text-align: center;
+    font-size: 3rem;
+    border: 10px solid #dfeff0;
+    border-radius: 50px;
+    box-shadow: 20px 20px 50px gray ;
+    text-shadow: 10px 10px 10px black;
+}
+.playersImage {
+    width: 200px;
+    height: 200px;
+}
+div {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 15px 15px 15px gray ;
+    margin: 10px;
+}
+.CSKDiv {
+    background-color: #ffcb05;
+}
+.DCDiv{
+    background-color: #c90006;
+    color: #dfeff0;
+}
+.GTDiv{
+    background-color: #77c7f2;
+}
+.KKRDiv{
+    background-color: #5d506d;
+    color: #dfeff0;
+}
+.LSGDiv{
+    background-color: #0156e1;
+}
+.MIDiv{
+    background-color: #153a75;
+    color: #dfeff0;
+}
+.PKDiv{
+    background-color: #d71920;
+}
+.RRDiv{
+    background-color: #eb83b5;
+    color: #dfeff0;
+}
+.RCBDiv{
+    background-color: #cb2f2f;
+}
+.SRHDiv{
+    background-color: #8b2824;
+    color: #dfeff0;
+}
+
+@media screen and (min-width:0px)and (max-width:576px) {
+    body {
+        background-color: #295e6a;
+        text-align: center;
+    }
+    #CSKHeading, #DCHeading, #GTHeading, #KKRHeading,
+    #LSGHeading, #MIHeading, #PKHeading, #RRHeading,
+    #RCBHeading, #SRHHeading, p {
+        color:white;
+        font-size: 1.3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    div :hover {
+        filter: drop-shadow(8px 8px 10px goldenrod);
+    }
+    
+}
+@media screen and (min-width:576px)and (max-width:768px){
+    body {
+        background-color: #295e6a;
+        text-align: center;
+    }
+    #CSKHeading, #DCHeading, #GTHeading, #KKRHeading,
+    #LSGHeading, #MIHeading, #PKHeading, #RRHeading,
+    #RCBHeading, #SRHHeading, p {
+        color:white;
+        font-size: 1rem;
+        font-family: "Source Code Pro", monospace;  
+    }
+}
+@media screen and (min-width:768px)and (max-width:992px){
+
+    body {
+        background-color: #fefbd8;
+        text-align: center;
+    }
+    #CSKHeading, #DCHeading, #GTHeading, #KKRHeading,
+    #LSGHeading, #MIHeading, #PKHeading, #RRHeading,
+    #RCBHeading, #SRHHeading, p {
+        color:white;
+        font-size: 1.2rem;
+        font-family: "Caveat", cursive;
+        font-weight: 600;
+        
+    }
+}
+@media screen and (min-width:992px)and (max-width:1200px){
+    body {
+        background-color: rgba(0, 128, 0, 0.6);
+        text-align: center;
+    }
+    #CSKHeading, #DCHeading, #GTHeading, #KKRHeading,
+    #LSGHeading, #MIHeading, #PKHeading, #RRHeading,
+    #RCBHeading, #SRHHeading, p {
+        color:white;
+        font-size: 0.8rem;
+        font-family: "Cinzel", serif;
+        font-weight: 400;
+        
+    }
+
+}
+@media screen and (min-width:1200px)and (max-width:1400px) {
+    body {
+        background-color: #295e6a;
+        text-align: center;
+    }
+    #CSKHeading, #DCHeading, #GTHeading, #KKRHeading,
+    #LSGHeading, #MIHeading, #PKHeading, #RRHeading,
+    #RCBHeading, #SRHHeading, p {
+        color:white;
+        font-size: 1.2rem;
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+}
+@media screen and (min-width:1400px)and (max-width:2000px) {
+    body {
+        background-color: rgba(255, 0, 0, 0.6);
+        text-align: center;
+    }
+    #CSKHeading, #DCHeading, #GTHeading, #KKRHeading,
+    #LSGHeading, #MIHeading, #PKHeading, #RRHeading,
+    #RCBHeading, #SRHHeading, p {
+        color:white;
+        font-size: 1rem;
+        font-family: "Special Elite", system-ui;
+        font-weight: 500;
+        /* font-style: italic; */
+    }
+
+}
